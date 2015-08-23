@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38846B91-92C5-4ED0-A77C-5480FA06EDBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WCell.Addons.Default</RootNamespace>
+    <AssemblyName>WCell.DefaultAddon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>1591,1587,1570,1573,1572</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1591,1587,1570,1573,1572</NoWarn>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1591,1587,1570,1573,1572</NoWarn>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>1591,1587,1570,1573,1572</NoWarn>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
+    <OutputPath>..\..\Run\RealmServerAddons\DefaultAddon\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Utilities\WCell.SolutionItems\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Battlegrounds\AlteracValley\AlteracValley.cs" />
+    <Compile Include="Battlegrounds\AlteracValley\AVItem.cs" />
+    <Compile Include="Battlegrounds\AlteracValley\AVStats.cs" />
+    <Compile Include="Battlegrounds\AlteracValley\AVTower.cs" />
+    <Compile Include="Battlegrounds\AlteracValley\AVBases.cs" />
+    <Compile Include="Battlegrounds\AlteracValley\AVFaction.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\ArathiBase.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\ArathiBasin.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\ArathiStats.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\Bases\Blacksmith.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\Bases\Farm.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\Bases\GoldMine.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\Bases\LumberMill.cs" />
+    <Compile Include="Battlegrounds\ArathiBasin\Bases\Stables.cs" />
+    <Compile Include="Battlegrounds\BladesEdgeArena.cs" />
+    <Compile Include="Battlegrounds\DalaranSewers.cs" />
+    <Compile Include="Battlegrounds\EyeOfTheStorm.cs" />
+    <Compile Include="Battlegrounds\NagrandArena.cs" />
+    <Compile Include="Battlegrounds\RuinsOfLordaeron.cs" />
+    <Compile Include="Battlegrounds\StrandOfTheAncients.cs" />
+    <Compile Include="Battlegrounds\TheRingOfValor.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\Silverwing.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\SummonFlagEffectHandler.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\WarsongFlagsHandler.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\WarsongGulch.cs">
+    </Compile>
+    <Compile Include="Battlegrounds\WarsongGulch\WSGFaction.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\WarsongClan.cs" />
+    <Compile Include="Battlegrounds\WarsongGulch\WSGStats.cs" />
+    <Compile Include="Commands\AddonDevCommands.cs" />
+    <Compile Include="Commands\TeleSpellCommand.cs" />
+    <Compile Include="Events\DarkmoonFaire.cs" />
+    <Compile Include="Gossip\Guard Gossip\Alliance\AllianceTowns.cs" />
+    <Compile Include="Gossip\Guard Gossip\Alliance\Darnassus.cs" />
+    <Compile Include="Gossip\Guard Gossip\Alliance\Exodar.cs" />
+    <Compile Include="Gossip\Guard Gossip\Alliance\Ironforge.cs" />
+    <Compile Include="Gossip\Guard Gossip\Alliance\Stormwind.cs" />
+    <Compile Include="Gossip\Guard Gossip\Horde\Orgrimmar.cs" />
+    <Compile Include="Gossip\Guard Gossip\Horde\Silvermoon.cs" />
+    <Compile Include="Gossip\Guard Gossip\Horde\ThunderBluff.cs" />
+    <Compile Include="Gossip\Guard Gossip\Horde\Undercity.cs" />
+    <Compile Include="Gossip\Guard Gossip\Neutral\Shattrath.cs" />
+    <Compile Include="Gossip\World Gossip\BoreanTundraGossip.cs" />
+    <Compile Include="Gossip\World Gossip\TanarisGossip.cs" />
+    <Compile Include="Instances\Northrend\AhnKahetTheOldKingdom.cs" />
+    <Compile Include="Instances\Northrend\TheRubySanctum.cs" />
+    <Compile Include="Instances\Outland\AuchindounAuchenaiCrypts.cs" />
+    <Compile Include="Instances\Outland\AuchindounManaTombs.cs" />
+    <Compile Include="Instances\Outland\AuchindounSethekkHalls.cs" />
+    <Compile Include="Instances\Outland\AuchindounShadowLabyrinth.cs" />
+    <Compile Include="Instances\Northrend\AzjolNerub.cs" />
+    <Compile Include="Instances\World\CashTest.cs" />
+    <Compile Include="Instances\Outland\CoilfangTheSlavePens.cs" />
+    <Compile Include="Instances\Outland\CoilfangTheSteamvault.cs" />
+    <Compile Include="Instances\Outland\CoilfangTheUnderbog.cs" />
+    <Compile Include="Instances\Northrend\DrakTharonKeep.cs" />
+    <Compile Include="Instances\Northrend\Gundrak.cs" />
+    <Compile Include="Instances\Northrend\HallsOfLightning.cs" />
+    <Compile Include="Instances\Northrend\HallsOfReflection.cs" />
+    <Compile Include="Instances\Northrend\HallsOfStone.cs" />
+    <Compile Include="Instances\Outland\HellfireCitadelRamparts.cs" />
+    <Compile Include="Instances\Outland\HellfireCitadelTheBloodFurnace.cs" />
+    <Compile Include="Instances\Outland\HellfireCitadelTheShatteredHalls.cs" />
+    <Compile Include="Instances\Northrend\IcecrownCitadel.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\MagistersTerrace.cs" />
+    <Compile Include="Instances\Kalimdor\OpeningOfTheDarkPortal.cs" />
+    <Compile Include="Instances\Northrend\PitOfSaron.cs" />
+    <Compile Include="Instances\World\StormwindStockade.cs" />
+    <Compile Include="Instances\World\SunwellFixUnused.cs" />
+    <Compile Include="Instances\Outland\TempestKeepTheArcatraz.cs" />
+    <Compile Include="Instances\Outland\TempestKeepTheBotanica.cs" />
+    <Compile Include="Instances\Outland\TempestKeepTheMechanar.cs" />
+    <Compile Include="Instances\Kalimdor\TheCullingOfStratholme.cs" />
+    <Compile Include="Instances\Kalimdor\TheEscapeFromDurnholde.cs" />
+    <Compile Include="Instances\Northrend\TheForgeOfSouls.cs" />
+    <Compile Include="Instances\Northrend\TheNexus.cs" />
+    <Compile Include="Instances\Northrend\TheOculus.cs" />
+    <Compile Include="Instances\Northrend\TrialOfTheChampion.cs" />
+    <Compile Include="Instances\Northrend\TrialOfTheCrusader.cs" />
+    <Compile Include="Instances\Northrend\UtgardeKeep.cs" />
+    <Compile Include="Instances\Northrend\UtgardePinnacle.cs" />
+    <Compile Include="Instances\Northrend\VaultOfArchavon.cs" />
+    <Compile Include="Instances\Northrend\VioletHold.cs" />
+    <Compile Include="Items\PlayerAbilityItemFixes.cs" />
+    <Compile Include="Lang\AddonMsgKey.cs" />
+    <Compile Include="Lang\DefaultAddonLocalizer.cs" />
+    <Compile Include="MiscFixes\ClassFixes.cs" />
+    <Compile Include="MiscFixes\RaceFixes.cs" />
+    <Compile Include="MiscFixes\ShapeshiftFixes.cs" />
+    <Compile Include="NPCs\NPCCorrections.cs" />
+    <Compile Include="DefaultAddon.cs" />
+    <Compile Include="Instances\Kalimdor\AhnQirajTemple.cs" />
+    <Compile Include="Instances\Kalimdor\BlackfathomDeeps.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\BlackrockDepths.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\BlackrockSpire.cs" />
+    <Compile Include="Instances\Outland\BlackTemple.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\BlackwingLair.cs" />
+    <Compile Include="Instances\Outland\CoilfangSerpentshrineCavern.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Deadmines.cs" />
+    <Compile Include="Instances\Kalimdor\DireMaul.cs" />
+    <Compile Include="Instances\World\EmeraldDream.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Gnomeregan.cs" />
+    <Compile Include="Instances\Outland\GruulsLair.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Karazhan.cs" />
+    <Compile Include="Instances\Outland\MagtheridonsLair.cs" />
+    <Compile Include="Instances\Kalimdor\Maraudon.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\MoltenCore.cs" />
+    <Compile Include="Instances\Northrend\Naxxramas.cs" />
+    <Compile Include="Instances\Kalimdor\OnyxiasLair.cs" />
+    <Compile Include="Instances\Kalimdor\RagefireChasm.cs" />
+    <Compile Include="Instances\Kalimdor\RazorfenDowns.cs" />
+    <Compile Include="Instances\Kalimdor\RazorfenKraul.cs" />
+    <Compile Include="Instances\Kalimdor\RuinsOfAhnQiraj.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\ScarletMonastery.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Scholomance.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\ShadowfangKeep.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Stratholme.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\SunkenTemple.cs" />
+    <Compile Include="Instances\Outland\TempestKeep.cs" />
+    <Compile Include="Instances\Kalimdor\TheBattleForMountHyjal.cs" />
+    <Compile Include="Instances\Northrend\TheEyeOfEternity.cs" />
+    <Compile Include="Instances\Northrend\TheObsidianSanctum.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\TheStockades.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\TheSunwell.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\Uldaman.cs" />
+    <Compile Include="Instances\Northrend\Ulduar.cs" />
+    <Compile Include="Instances\World\UnusedMonastery.cs" />
+    <Compile Include="Instances\Kalimdor\WailingCaverns.cs" />
+    <Compile Include="Instances\World\WintergraspRaid.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\ZulAman.cs" />
+    <Compile Include="Instances\Kalimdor\ZulFarrak.cs" />
+    <Compile Include="Instances\Eastern Kingdoms\ZulGurub.cs" />
+    <Compile Include="Quests\DeathKnightQuests.cs" />
+    <Compile Include="Spells\DeathKnight\DeathKnightDiseases.cs" />
+    <Compile Include="Spells\DeathKnight\DeathKnightFrostFixes.cs" />
+    <Compile Include="Spells\DeathKnight\DeathKnightBloodFixes.cs" />
+    <Compile Include="Spells\DeathKnight\DeathKnightUnholyFixes.cs" />
+    <Compile Include="Spells\DeathKnight\ProcOnDiseaseTriggerSpellHandler.cs" />
+    <Compile Include="Spells\Druid\DruidBalanceFixes.cs" />
+    <Compile Include="Spells\Druid\DruidFeralCombatFixes.cs" />
+    <Compile Include="Spells\Druid\DruidRestorationFixes.cs" />
+    <Compile Include="Spells\Hunter\HunterMarkmanshipFixes.cs" />
+    <Compile Include="Spells\Hunter\HunterSurvivalFixes.cs" />
+    <Compile Include="Spells\Mage\MageArcaneFixes.cs" />
+    <Compile Include="Spells\Mage\MageFireFixes.cs" />
+    <Compile Include="Spells\Mage\MageFrostFixes.cs" />
+    <Compile Include="Spells\Paladin\PaladinHolyFixes.cs" />
+    <Compile Include="Spells\Paladin\PaladinProtectionFixes.cs" />
+    <Compile Include="Spells\Paladin\PaladinRetributionFixes.cs" />
+    <Compile Include="Spells\Priest\PriestFixes.cs" />
+    <Compile Include="Spells\Priest\PriestHolyFixes.cs" />
+    <Compile Include="Spells\Priest\PriestShadowFixes.cs" />
+    <Compile Include="Spells\Rogue\RogueCombatFixes.cs" />
+    <Compile Include="Spells\Rogue\RogueSubtletyFixes.cs" />
+    <Compile Include="Spells\VehicleSpells.cs" />
+    <Compile Include="Spells\Warrior\WarriorArmsFixes.cs" />
+    <Compile Include="Spells\Warrior\WarriorFuryFixes.cs" />
+    <Compile Include="Spells\Warrior\WarriorProtectionFixes.cs" />
+    <Compile Include="Teleport\TeleportNetwork.cs" />
+    <Compile Include="Samples\AmbusherQuestSample.cs" />
+    <Compile Include="Samples\MixedSamples.cs" />
+    <Compile Include="Samples\SampleNPCs.cs" />
+    <Compile Include="Spells\DeathKnight\DeathKnightFixes.cs" />
+    <Compile Include="Spells\Druid\DruidFixes.cs" />
+    <Compile Include="Spells\Hunter\HunterFixes.cs" />
+    <Compile Include="Spells\Mage\MageFixes.cs" />
+    <Compile Include="Spells\MiscSpells.cs" />
+    <Compile Include="Spells\NPCSpells.cs" />
+    <Compile Include="Spells\Paladin\SealsAndJudgements.cs" />
+    <Compile Include="Spells\Paladin\PaladinFixes.cs" />
+    <Compile Include="Spells\PlayerSpells.cs" />
+    <Compile Include="Spells\QuestSpells.cs" />
+    <Compile Include="Spells\Rogue\RogueFixes.cs" />
+    <Compile Include="Spells\Shaman\ShamanFixes.cs" />
+    <Compile Include="Spells\Warlock\RecallToGOHandler.cs" />
+    <Compile Include="Spells\Warlock\WarlockFixes.cs" />
+    <Compile Include="Spells\Warrior\WarriorFixes.cs" />
+    <Compile Include="Teleport\TeleportNode.cs" />
+    <Compile Include="Teleport\ZeppelinMaster.cs" />
+    <Compile Include="Vehicles\VehicleCorrections.cs" />
+    <Compile Include="Vehicles\VehicleData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Cell.Core\Cell.Core.csproj">
+      <Project>{71AB07AD-4D94-4693-8560-47862E5B6E61}</Project>
+      <Name>Cell.Core</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\WCell.Constants\WCell.Constants.csproj">
+      <Project>{42F497A4-0347-491D-8FA8-50E4D8AD19EB}</Project>
+      <Name>WCell.Constants</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\WCell.Core\WCell.Core.csproj">
+      <Project>{EEA9DEB6-8EA6-46F1-B1B7-AB38D8BBCA6C}</Project>
+      <Name>WCell.Core</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\WCell.Intercommunication\WCell.Intercommunication.csproj">
+      <Project>{5997613F-D2A5-4B86-BEE2-C823BC07D5AF}</Project>
+      <Name>WCell.Intercommunication</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Services\WCell.RealmServer\WCell.RealmServer.csproj">
+      <Project>{A38FAA6D-86B5-4429-85D0-BC93EB5E2C56}</Project>
+      <Name>WCell.RealmServer</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Utilities\WCell.Util\WCell.Util.csproj">
+      <Project>{F753AF28-A251-4C12-9335-07E8236184F2}</Project>
+      <Name>WCell.Util</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameObjects\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
